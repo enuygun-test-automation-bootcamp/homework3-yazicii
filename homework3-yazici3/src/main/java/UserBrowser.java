@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class UserBrowser {
 
     public static void main(String[] args) {
+
         Utility.setDriverProps(DriverType.CHROME);
         ChromeOptions options = new ChromeOptions();
 
